@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"a11","l":"Buch"},{"p":"a11","l":"CD"},{"p":"a6","l":"Fahrrad"},{"p":"a6","l":"Fahrzeug"},{"p":"a6","l":"Kraftfahrzeug"},{"p":"a11","l":"Medium"},{"p":"a2","l":"Program"},{"p":"a6","l":"Programm"},{"p":"a11","l":"Zeitschrift"}]

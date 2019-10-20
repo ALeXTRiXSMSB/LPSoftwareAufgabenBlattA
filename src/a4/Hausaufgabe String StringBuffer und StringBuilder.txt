@@ -1,0 +1,11 @@
+String: Gehört bereits mit zu den einfachen Datentypen von Java gut bei Inhalten die sich nicht verändern Sehr schnell da nur ein Objekt erzeugt wird allerdings bei begrenztem Speicher eher unvorteilhaft bei Scheinbarer String Veränderung wird ihn wirklichkeit ein neues String Objekt erzeugt
+
+StringBuffer: 
+Vorteil: Erzeugt kein neues Objekt im Speicher bei veränderungen sondern arbeitet direkt auf dem Objekt => Weniger Objekte im Speicher vorteilhalt bei begrenztem Speicher
+Synchronisiert sich selbstständig bei mehreren Threads
+Nachteil: Langsamer als StringBuilder da Synchronisierung, 
+Langsamer als String da auf dem Objekt gearbeitet wird
+
+StringBuilder: Ähnlich wie StringBuffer, gleiche methoden 
+vorteil: Schneller als StringBuffer 
+Nachteil: bei mehreren Threads kann der inhalt inkonsistent werden

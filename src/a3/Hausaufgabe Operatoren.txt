@@ -1,0 +1,5 @@
+&&: Logisches AND, Ist genau dann Wahr wenn beide Ausdrücke Wahr sind bei && werden beide Ausdrücke ausgewertet
+&: Logisches AND, Ist genau dann Wahr wenn beide Ausdrücke Wahr sind bei & wird zuerst der Link ausdruck ausgewertet und wenn der schon ein Falsch liefert wird der Rechts Ausdruck gar nicht mehr ausgewertet => Spart Rechenzeit
+||: Logisches OR, ist genau dann Wahr wenn ein Ausdruck Wahr ist bei || werden beide Ausdrücke ausgewertet
+|: Logisches OR, ist genau dann Wahr wenn ein Ausdruck Wahr ist bei | wird zuerst der Linke ausdruck ausgewertet, wenn der Wahr ist wird der Rechts ausdruck nicht mehr ausgewertet weil das ergebnis bereits Wahr zurückgeben würde => Spart Rechenzeit
+

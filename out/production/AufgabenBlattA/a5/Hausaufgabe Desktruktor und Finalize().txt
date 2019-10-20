@@ -1,0 +1,5 @@
+GarbageColletor übernimmt das Automatische Aufräumen im Speicher
+Nicht Referenzierte Objekte werden entfernt
+GarbageCollector tritt zufällig auf
+Finalize() methode wird vom GC aufgerufen um Objekte aus dem Speicher zu löschen Selbst aufrufen kann gefährlich sein
+wenn z.b. der GC-Thread auch die methode aufruft da es dann zu deadlocks im Programm kommen kann
